@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA487D37225E706800AC2BDE /* Operations+SquaringCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BA487D36225E706800AC2BDE /* Operations+SquaringCategory.m */; };
+		BA678B82225CC9A400E471F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA678B81225CC9A400E471F6 /* AppDelegate.m */; };
+		BA678B84225CC9A600E471F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA678B83225CC9A600E471F6 /* Assets.xcassets */; };
+		BA678B87225CC9A600E471F6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA678B85225CC9A600E471F6 /* MainMenu.xib */; };
+		BA678B8A225CC9A600E471F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA678B89225CC9A600E471F6 /* main.m */; };
+		BA678B93225CCA8600E471F6 /* Operations.m in Sources */ = {isa = PBXBuildFile; fileRef = BA678B92225CCA8600E471F6 /* Operations.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA487D35225E706800AC2BDE /* Operations+SquaringCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Operations+SquaringCategory.h"; sourceTree = "<group>"; };
+		BA487D36225E706800AC2BDE /* Operations+SquaringCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Operations+SquaringCategory.m"; sourceTree = "<group>"; };
+		BA678B7D225CC9A400E471F6 /* Lab2.4_SimpleCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab2.4_SimpleCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA678B80225CC9A400E471F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA678B81225CC9A400E471F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA678B83225CC9A600E471F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA678B86225CC9A600E471F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BA678B88225CC9A600E471F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA678B89225CC9A600E471F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA678B8B225CC9A600E471F6 /* Lab2_4_SimpleCalculator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lab2_4_SimpleCalculator.entitlements; sourceTree = "<group>"; };
+		BA678B91225CCA8600E471F6 /* Operations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Operations.h; sourceTree = "<group>"; };
+		BA678B92225CCA8600E471F6 /* Operations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Operations.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA678B7A225CC9A400E471F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA678B74225CC9A400E471F6 = {
+			isa = PBXGroup;
+			children = (
+				BA678B7F225CC9A400E471F6 /* Lab2.4_SimpleCalculator */,
+				BA678B7E225CC9A400E471F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA678B7E225CC9A400E471F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA678B7D225CC9A400E471F6 /* Lab2.4_SimpleCalculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA678B7F225CC9A400E471F6 /* Lab2.4_SimpleCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				BA678B80225CC9A400E471F6 /* AppDelegate.h */,
+				BA678B81225CC9A400E471F6 /* AppDelegate.m */,
+				BA678B83225CC9A600E471F6 /* Assets.xcassets */,
+				BA678B85225CC9A600E471F6 /* MainMenu.xib */,
+				BA678B88225CC9A600E471F6 /* Info.plist */,
+				BA678B89225CC9A600E471F6 /* main.m */,
+				BA678B8B225CC9A600E471F6 /* Lab2_4_SimpleCalculator.entitlements */,
+				BA678B91225CCA8600E471F6 /* Operations.h */,
+				BA678B92225CCA8600E471F6 /* Operations.m */,
+				BA487D35225E706800AC2BDE /* Operations+SquaringCategory.h */,
+				BA487D36225E706800AC2BDE /* Operations+SquaringCategory.m */,
+			);
+			path = Lab2.4_SimpleCalculator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA678B7C225CC9A400E471F6 /* Lab2.4_SimpleCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA678B8E225CC9A600E471F6 /* Build configuration list for PBXNativeTarget "Lab2.4_SimpleCalculator" */;
+			buildPhases = (
+				BA678B79225CC9A400E471F6 /* Sources */,
+				BA678B7A225CC9A400E471F6 /* Frameworks */,
+				BA678B7B225CC9A400E471F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lab2.4_SimpleCalculator;
+			productName = Lab2.4_SimpleCalculator;
+			productReference = BA678B7D225CC9A400E471F6 /* Lab2.4_SimpleCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA678B75225CC9A400E471F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Mai;
+				TargetAttributes = {
+					BA678B7C225CC9A400E471F6 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = BA678B78225CC9A400E471F6 /* Build configuration list for PBXProject "Lab2.4_SimpleCalculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA678B74225CC9A400E471F6;
+			productRefGroup = BA678B7E225CC9A400E471F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA678B7C225CC9A400E471F6 /* Lab2.4_SimpleCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA678B7B225CC9A400E471F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA678B84225CC9A600E471F6 /* Assets.xcassets in Resources */,
+				BA678B87225CC9A600E471F6 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA678B79225CC9A400E471F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA678B93225CCA8600E471F6 /* Operations.m in Sources */,
+				BA678B8A225CC9A600E471F6 /* main.m in Sources */,
+				BA678B82225CC9A400E471F6 /* AppDelegate.m in Sources */,
+				BA487D37225E706800AC2BDE /* Operations+SquaringCategory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA678B85225CC9A600E471F6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA678B86225CC9A600E471F6 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA678B8C225CC9A600E471F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BA678B8D225CC9A600E471F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BA678B8F225CC9A600E471F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Lab2.4_SimpleCalculator/Lab2_4_SimpleCalculator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Lab2.4_SimpleCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ep.Lab2-4-SimpleCalculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA678B90225CC9A600E471F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Lab2.4_SimpleCalculator/Lab2_4_SimpleCalculator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Lab2.4_SimpleCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ep.Lab2-4-SimpleCalculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA678B78225CC9A400E471F6 /* Build configuration list for PBXProject "Lab2.4_SimpleCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA678B8C225CC9A600E471F6 /* Debug */,
+				BA678B8D225CC9A600E471F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA678B8E225CC9A600E471F6 /* Build configuration list for PBXNativeTarget "Lab2.4_SimpleCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA678B8F225CC9A600E471F6 /* Debug */,
+				BA678B90225CC9A600E471F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA678B75225CC9A400E471F6 /* Project object */;
+}
