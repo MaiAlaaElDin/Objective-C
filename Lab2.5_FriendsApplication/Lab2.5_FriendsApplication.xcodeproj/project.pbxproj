@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA88E81F22611B8700B562D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA88E81E22611B8700B562D7 /* AppDelegate.m */; };
+		BA88E82122611B8800B562D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA88E82022611B8800B562D7 /* Assets.xcassets */; };
+		BA88E82422611B8800B562D7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA88E82222611B8800B562D7 /* MainMenu.xib */; };
+		BA88E82722611B8800B562D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA88E82622611B8800B562D7 /* main.m */; };
+		BA88E83022611BE700B562D7 /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = BA88E82F22611BE700B562D7 /* Friend.m */; };
+		BA88E83322611CDA00B562D7 /* FriendManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA88E83222611CDA00B562D7 /* FriendManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA88E81A22611B8700B562D7 /* Lab2.5_FriendsApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab2.5_FriendsApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA88E81D22611B8700B562D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA88E81E22611B8700B562D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA88E82022611B8800B562D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA88E82322611B8800B562D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BA88E82522611B8800B562D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA88E82622611B8800B562D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA88E82822611B8800B562D7 /* Lab2_5_FriendsApplication.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lab2_5_FriendsApplication.entitlements; sourceTree = "<group>"; };
+		BA88E82E22611BE700B562D7 /* Friend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Friend.h; sourceTree = "<group>"; };
+		BA88E82F22611BE700B562D7 /* Friend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Friend.m; sourceTree = "<group>"; };
+		BA88E83122611CDA00B562D7 /* FriendManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendManager.h; sourceTree = "<group>"; };
+		BA88E83222611CDA00B562D7 /* FriendManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA88E81722611B8700B562D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA88E81122611B8700B562D7 = {
+			isa = PBXGroup;
+			children = (
+				BA88E81C22611B8700B562D7 /* Lab2.5_FriendsApplication */,
+				BA88E81B22611B8700B562D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA88E81B22611B8700B562D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA88E81A22611B8700B562D7 /* Lab2.5_FriendsApplication.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA88E81C22611B8700B562D7 /* Lab2.5_FriendsApplication */ = {
+			isa = PBXGroup;
+			children = (
+				BA88E81D22611B8700B562D7 /* AppDelegate.h */,
+				BA88E81E22611B8700B562D7 /* AppDelegate.m */,
+				BA88E82022611B8800B562D7 /* Assets.xcassets */,
+				BA88E82222611B8800B562D7 /* MainMenu.xib */,
+				BA88E82522611B8800B562D7 /* Info.plist */,
+				BA88E82622611B8800B562D7 /* main.m */,
+				BA88E82822611B8800B562D7 /* Lab2_5_FriendsApplication.entitlements */,
+				BA88E82E22611BE700B562D7 /* Friend.h */,
+				BA88E82F22611BE700B562D7 /* Friend.m */,
+				BA88E83122611CDA00B562D7 /* FriendManager.h */,
+				BA88E83222611CDA00B562D7 /* FriendManager.m */,
+			);
+			path = Lab2.5_FriendsApplication;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA88E81922611B8700B562D7 /* Lab2.5_FriendsApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA88E82B22611B8800B562D7 /* Build configuration list for PBXNativeTarget "Lab2.5_FriendsApplication" */;
+			buildPhases = (
+				BA88E81622611B8700B562D7 /* Sources */,
+				BA88E81722611B8700B562D7 /* Frameworks */,
+				BA88E81822611B8700B562D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lab2.5_FriendsApplication;
+			productName = Lab2.5_FriendsApplication;
+			productReference = BA88E81A22611B8700B562D7 /* Lab2.5_FriendsApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA88E81222611B8700B562D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Mai;
+				TargetAttributes = {
+					BA88E81922611B8700B562D7 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = BA88E81522611B8700B562D7 /* Build configuration list for PBXProject "Lab2.5_FriendsApplication" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA88E81122611B8700B562D7;
+			productRefGroup = BA88E81B22611B8700B562D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA88E81922611B8700B562D7 /* Lab2.5_FriendsApplication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA88E81822611B8700B562D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA88E82122611B8800B562D7 /* Assets.xcassets in Resources */,
+				BA88E82422611B8800B562D7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA88E81622611B8700B562D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA88E83022611BE700B562D7 /* Friend.m in Sources */,
+				BA88E83322611CDA00B562D7 /* FriendManager.m in Sources */,
+				BA88E82722611B8800B562D7 /* main.m in Sources */,
+				BA88E81F22611B8700B562D7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA88E82222611B8800B562D7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA88E82322611B8800B562D7 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA88E82922611B8800B562D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BA88E82A22611B8800B562D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BA88E82C22611B8800B562D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Lab2.5_FriendsApplication/Lab2_5_FriendsApplication.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Lab2.5_FriendsApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ep.Lab2-5-FriendsApplication";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA88E82D22611B8800B562D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Lab2.5_FriendsApplication/Lab2_5_FriendsApplication.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Lab2.5_FriendsApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ep.Lab2-5-FriendsApplication";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA88E81522611B8700B562D7 /* Build configuration list for PBXProject "Lab2.5_FriendsApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA88E82922611B8800B562D7 /* Debug */,
+				BA88E82A22611B8800B562D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA88E82B22611B8800B562D7 /* Build configuration list for PBXNativeTarget "Lab2.5_FriendsApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA88E82C22611B8800B562D7 /* Debug */,
+				BA88E82D22611B8800B562D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA88E81222611B8700B562D7 /* Project object */;
+}
